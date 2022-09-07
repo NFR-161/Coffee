@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/account.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/backg_button.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/coffee.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/home.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/line.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/line_active.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/more.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/drawable/tabs.xml" value="0.1" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/account.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/card.xml" value="0.22" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/card_item.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/checkout.xml" value="0.19166666666666668" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/coffee.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/coffee_item.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/home.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/order_item.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/proposal_one.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/layout/proposal_two.xml" value="0.1796875" />
+        <entry key="..\:/Android/SDK/AndroidDeveloper/Test/app/src/main/res/menu/bottom_menu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

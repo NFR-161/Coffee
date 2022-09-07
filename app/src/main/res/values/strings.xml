@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Coffee</string>
+    <string name="home">HOME</string>
+    <string name="coffee">COFFEE</string>
+    <string name="card">CARD</string>
+    <string name="account">ACCOUNT</string>
+    <string name="dollar">$</string>
+    <string name="clearCard">CLEAR CARD</string>
+    <string name="clearOrders">CLEAR ORDERS</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="totalOrder">TOTAL:</string>
+    <string name="yourName">Your Name</string>
+    <string name="yourPhone">Your Phone</string>
+    <string name="submit">SUBMIT</string>
+    <string name="mainHeader">COSO - MOBILE COFFEE SHOP</string>
+    <string name="descriptionCoso">We are happy to make coffee for you and make your day a little better</string>
+    <string name="salePropOne">Sale - 10 % </string>
+    <string name="salePropTwo">Sale - 15 % </string>
+    <string name="headerPropOne">Morning moсcaccino</string>
+    <string name="headerPropTwo">Morning cappuccino</string>
+    <string name="descriptionProposal">The promotion is valid when ordering from 8 to 10 am</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
