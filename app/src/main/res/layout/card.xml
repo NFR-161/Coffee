@@ -8,6 +8,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/black"
         tools:context=".presentation.Tabs.Card.Card">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -18,7 +19,6 @@
                 android:id="@+id/listCard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -27,22 +27,22 @@
                 android:id="@+id/headerTotalOrder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/listCard"
-                app:layout_constraintRight_toLeftOf="@id/totalOrder"
                 android:layout_margin="10dp"
                 android:layout_marginRight="10dp"
                 android:text="@string/totalOrder"
-                android:textColor="@color/orange"/>
+                android:textColor="@color/orange"
+                app:layout_constraintRight_toLeftOf="@id/totalOrder"
+                app:layout_constraintTop_toBottomOf="@id/listCard" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/totalOrder"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/listCard"
-                app:layout_constraintRight_toLeftOf="@id/currTotalOrder"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:textColor="@color/orange"/>
+                android:textColor="@color/orange"
+                app:layout_constraintRight_toLeftOf="@id/currTotalOrder"
+                app:layout_constraintTop_toBottomOf="@id/listCard" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/currTotalOrder"
@@ -50,17 +50,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:textColor="@color/orange"
                 android:text="@string/dollar"
-                app:layout_constraintTop_toBottomOf="@id/listCard"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                android:textColor="@color/orange"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/listCard" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/checkoutCard"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp"
-                android:background="@color/orange"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/for_bt_bg"
                 android:text="@string/checkout"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/clearCard"
@@ -71,8 +73,10 @@
                 android:id="@+id/clearCard"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="?attr/actionBarSize"
-                android:background="@color/orange"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="58dp"
+                android:background="@drawable/for_bt_bg"
                 android:text="@string/clearCard"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +85,6 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 
     </FrameLayout>
