@@ -1,6 +1,7 @@
 package com.exampleone.test.presentation.Tabs
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,6 +14,7 @@ import com.exampleone.test.presentation.Tabs.Account.Account
 import com.exampleone.test.presentation.viewModels.CardViewModel
 import com.exampleone.test.presentation.viewModels.OrderApiViewModel
 import com.exampleone.test.presentation.viewModels.OrderLocalViewModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -34,7 +36,6 @@ class Checkout : BottomSheetDialogFragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = DataBindingUtil.inflate(inflater, R.layout.checkout, container, false)
-
         return binding.root
     }
 
@@ -71,7 +72,10 @@ class Checkout : BottomSheetDialogFragment() {
 
                 activity?.supportFragmentManager?.beginTransaction()
                     ?.replace(R.id.mainContent, Account())?.commit()
-
+                val  bottomMain= activity?.findViewById<BottomNavigationView>(R.id.bottomMainMenu)
+                if (bottomMain != null) {
+                    bottomMain.selectedItemId = R.id.accountBottomMainMenu
+                }
 
             })
 

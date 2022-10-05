@@ -1,6 +1,7 @@
 package com.exampleone.test.presentation.Tabs.Account
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.exampleone.test.R
 import com.exampleone.test.databinding.AccountBinding
 import com.exampleone.test.presentation.viewModels.OrderLocalViewModel
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class Account : Fragment() {
@@ -30,7 +32,6 @@ class Account : Fragment() {
         _binding = DataBindingUtil.inflate(inflater, R.layout.account, container, false)
 
         initRecyclerOrder()
-
         loadOrders()
 
         binding.clearOrders.setOnClickListener(View.OnClickListener {
@@ -41,7 +42,6 @@ class Account : Fragment() {
     }
 
     private fun initRecyclerOrder() {
-
         binding.listOrders.layoutManager =
             LinearLayoutManager(context)
         orderAdapter = OrderAdapter()
