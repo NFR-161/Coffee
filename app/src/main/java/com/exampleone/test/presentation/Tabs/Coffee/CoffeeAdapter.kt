@@ -20,6 +20,7 @@ class CoffeeAdapter(
 
     private val coffee = ArrayList<CoffeeInfo>()
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CoffeeHolder {
 
         val layoutInflater = LayoutInflater.from(parent.context)
@@ -30,6 +31,7 @@ class CoffeeAdapter(
 
     override fun getItemCount(): Int {
         return coffee.size
+
     }
 
     override fun onBindViewHolder(holder: CoffeeHolder, position: Int) {

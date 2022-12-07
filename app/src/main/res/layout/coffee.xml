@@ -16,8 +16,10 @@ tools:context=".presentation.Tabs.Coffee.Coffee">
                 android:id="@+id/catalogCoffee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                tools:itemCount="3"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/coffee_item"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

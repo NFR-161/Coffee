@@ -44,8 +44,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
 
-
-
         </androidx.appcompat.widget.LinearLayoutCompat>
         <ProgressBar
             android:id="@+id/progressBar_ID"
@@ -75,9 +73,6 @@
                 app:menu="@menu/bottom_menu"/>
 
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

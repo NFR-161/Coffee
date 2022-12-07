@@ -22,10 +22,7 @@ class CoffeeApiDataSourceIMPL(private val coffeeDataSource: CoffeeDataSource) :
         val call = ApiClient.instance?.api?.loadCoffeeApi()
         call?.enqueue(object : Callback<ArrayList<CoffeeApiModel>> {
 
-            override fun onResponse(
-                call: Call<ArrayList<CoffeeApiModel>>,
-                response: Response<ArrayList<CoffeeApiModel>>
-            ) {
+            override fun onResponse(call: Call<ArrayList<CoffeeApiModel>>, response: Response<ArrayList<CoffeeApiModel>>) {
                 var loadCoffee: ArrayList<CoffeeApiModel>? = null
                 loadCoffee?.clear()
                 loadCoffee = response.body()
@@ -39,8 +36,7 @@ class CoffeeApiDataSourceIMPL(private val coffeeDataSource: CoffeeDataSource) :
                                 audit.name.toString(),
                                 audit.image.toString(),
                                 audit.description.toString(),
-                                audit.price.toString()
-                            )
+                                audit.price.toString())
                         }?.let {
                             coffeeDataSource.insert(it)
                         }
